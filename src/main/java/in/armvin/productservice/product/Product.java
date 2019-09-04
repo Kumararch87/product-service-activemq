@@ -75,4 +75,10 @@ public class Product {
 		this.price = price;
 	}
 
+	@Override
+	public String toString() {
+		return "Product [productId=" + productId + ", productCode=" + productCode + ", productName=" + productName
+				+ ", mnfDate=" + mnfDate + ", expDate=" + expDate + ", price=" + price + "]";
+	}
+
 }
